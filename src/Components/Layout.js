@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar';
 import Footer from './Footer';
+import Notifications from './Notifications';
 
 function Layout(props) {
   return (
@@ -9,6 +10,7 @@ function Layout(props) {
       <main>
         {props.children}
       </main>
+      <Notifications/>
       <Footer />
     </div>
   );

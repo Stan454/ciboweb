@@ -428,3 +428,12 @@ nav {
     display: none;
   }
 }
+
+.custom-toast .Toastify__toast-body {
+  display: flex;
+  align-items: center;
+}
+
+.custom-toast .Toastify__toast-body svg {
+  color: var(--toastify-color-info);
+}
