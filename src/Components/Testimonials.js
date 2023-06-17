@@ -9,15 +9,13 @@ const Testimonial = () => {
         <p className="primary-subheading">Testimonial</p>
         <h1 className="primary-heading">What They Are Saying</h1>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+          Numerous restaurants are already using our platform, whats stopping you?
         </p>
       </div>
       <div className="testimonial-section-bottom">
         <img src={ProfilePic} alt="" />
         <p>
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+           I always found it hard to maintain a website for my restaurant without having to pay big fees or pay for webhosting, CIBO was the perfect match for me.
         </p>
         <div className="testimonials-stars-container">
           <AiFillStar />
@@ -26,7 +24,7 @@ const Testimonial = () => {
           <AiFillStar />
           <AiFillStar />
         </div>
-        <h2>John Doe</h2>
+        <h2>Johnathan Doe</h2>
       </div>
     </div>
   );

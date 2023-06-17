@@ -7,28 +7,27 @@ const Work = () => {
   const workInfoData = [
     {
       image: PickMeals,
-      title: "Pick Meals",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et sagittis duis elementum interdum facilisi bibendum.",
+      title: "Customer website",
+      text: "Your customers can easily interact with your restaurant using the CIBO website",
     },
     {
       image: ChooseMeals,
-      title: "Choose How Often",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et ",
+      title: "Admin Panel",
+      text: "With the admin panel you can easily manage your menu and reservations",
     },
     {
       image: DeliveryMeals,
-      title: "Fast Deliveries",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
+      title: "Delivery",
+      text: "CIBO works together with numerous delivery services that are available for your restaurants deliveries",
     },
   ];
   return (
     <div className="work-section-wrapper">
       <div className="work-section-top">
-        <p className="primary-subheading">Work</p>
+        <p className="primary-subheading">Info</p>
         <h1 className="primary-heading">How It Works</h1>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+          CIBO is a platform designed to make your restaurant easily accessible for customers. Our service includes an online website hosted at our platform and an admin panel ready to use for you and your employees.  
         </p>
       </div>
       <div className="work-section-bottom">

@@ -2,6 +2,7 @@ import {useState} from "react";
 import Logo from "../Assets/Logo.svg";
 import { BsCart2 } from "react-icons/bs";
 import { HiOutlineBars3 } from "react-icons/hi2";
+import { Link } from "react-router-dom";
 import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
 import List from "@mui/material/List";
@@ -49,14 +50,12 @@ function Navbar() {
             <img src={Logo} alt=""/>
         </div>
         <div className="navbar-links-container">
-            <a href="">Home</a>
-            <a href="">About</a>
-            <a href="">Testimonials</a>
-            <a href="">Contact</a>
-            <a href="">
-                <BsCart2 className="navbar-cart-icon"/>
-            </a>
-            <button className="primary-button">bookings now</button>
+        <ul>
+            <a><Link to="/">Home</Link></a>
+            <a><Link to="/restaurants">Restaurants</Link></a>
+            <a><Link to="/account">Account</Link></a>
+            <a><Link to="/cart"><BsCart2 className="navbar-cart-icon"/></Link></a>
+        </ul>
         </div>
         <div className="navbar-menu-container">
             <HiOutlineBars3 onClick={() => SetOpenMenu(true)}/>
