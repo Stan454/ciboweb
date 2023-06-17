@@ -52,7 +52,7 @@ function Navbar() {
         <div className="navbar-links-container">
         <ul>
             <a><Link to="/">Home</Link></a>
-            <a><Link to="/restaurant">Restaurants</Link></a>
+            <a><Link to="/restaurants">Restaurants</Link></a>
             <a><Link to="/account">Account</Link></a>
             <a><Link to="/cart"><BsCart2 className="navbar-cart-icon"/></Link></a>
         </ul>
